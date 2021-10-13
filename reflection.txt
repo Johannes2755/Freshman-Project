@@ -1,0 +1,31 @@
+John Bestavros
+CS111 - Intro to Computer Science, section C1
+Professor D. Sullivan
+
+
+For this project, I decided to use scripts from episodes of two different Star Trek TV Shows as my source bodies, because I have always been a massive fan of Star Trek. The first show is the 
+original Star Trek show, now known as The Original Series (aired from 1966 until 1969). The other show is Star Trek: The Next Generation, which is set 100 years after the original show, and 
+aired from 1987 until 1994. I ran my code on an episode script The Original Series (TOS) and an episode script from The Next Generation (TNG) to create a model for each series. I then compared 
+three additional episode scripts from those same series against the models to study their similarity. This analysis showed that the episodes tested matched the models for the series they came 
+from.
+ 
+In addition to running my code on episodes from TNG and TOS, I also wanted to study how episodes from other Star Trek spinoff series compared. I ran my code on two representative episodes from 
+the two additional Star Trek series that followed TNG: one episode from Deep Space Nine, and another from Voyager, revealing some rather interesting results. In both cases, the similarity scores 
+showed a higher likelihood of the episode being from TOS rather than being from TNG. In the case of Voyager, the similarity scores were neck and neck, with one dictionary being more similar 
+to TNG, followed by the next dictionary being more similar to TOS. These results surprised me, because I had a preconceived notion that the more advanced language on technical matters (technobabble) 
+was a prominent recurrence in the more modern shows such as TNG, Deep Space Nine, and Voyager. My similarity_score mechanism works very well. I also think my extra dictionary for the amount 
+of punctuation in the script was easy to make and rather helpful for discerning between different versions of Star Trek. That said, however, I feel that the helper function for word stems could 
+be improved. While I did create at least seven cases for punctuation that would lead to a certain stem, I believe it might have been beneficial to add more cases, allowing for additional refinement. 
+Additionally, a larger body of text for each model may have further improved the model’s accuracy when comparing against other episodes.
+
+
+Episodes used to define the models:
+The Original Series: "The Corbomite Maneuver" (Season 1, Episode 10, aired Nov. 10th, 1966)
+The Next Generation: "Darmok" (Season 5, Episode 2, aired Oct. 1st, 1990)
+
+Episodes I used for comparisons:
+"The City On The Edge Of Forever" (Star Trek: The Original Series; Season 1, Episode 28, aired Apr. 6th, 1967)
+"Power Play" (Star Trek: The Next Generation; Season 5, Episode 15, aired Feb. 24th, 1992)
+"Ensign Ro" (Star Trek: The Next Generation; Season 5, Episode 3, aired Oct. 7th, 1990)
+"Duet" (Star Trek: Deep Space Nine; Season 1, Episode 18, aired Jun. 14th, 1993)
+"Imperfection" (Star Trek: Voyager; Season 7 Episode 2, aired Oct. 11th, 2000)
